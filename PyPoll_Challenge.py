@@ -1,4 +1,5 @@
 # -*- coding: UTF-8 -*-
+
 """PyPoll Homework Challenge Solution."""
 
 # Add our dependencies.
@@ -91,6 +92,7 @@ with open(file_to_save, "w") as txt_file:
         f"County Votes:\n")
     print(election_results, end="")
 
+    #Save the Final vote count to a text file. 
     txt_file.write(election_results)
 
     # 6a: Write a for loop to get the county from the county dictionary.
